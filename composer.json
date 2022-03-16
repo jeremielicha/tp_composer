@@ -1,0 +1,19 @@
+{
+    "name": "jerem/tp_composer",
+    "description": "TP Composer",
+    "autoload": {
+        "psr-4": {
+            "Root\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jeremielicha",
+            "email": "jeremielicha7@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "start": "php -S localhost:8000"
+    }
+}

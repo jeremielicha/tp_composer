@@ -1,14 +1,13 @@
 <?php
-include "Comparable.php";
-include "Club.php";
-include "ISport.php";
-include "ISportCollectif.php";
-include "ITerrain.php";
-include "Sport.php";
-include "SportBallon.php";
-include "SportRelais.php";
+
+require __DIR__.'/vendor/autoload.php';
 
 // Init les clubs
+use Root\club\Club;
+use Root\sport\Sport;
+use Root\sport\SportBallon;
+use Root\sport\SportRelais;
+
 $club = array();
 $club[1] = new Club(1, "Dijon", 63);
 $club[2] = new Club(2, "PSG", 67);

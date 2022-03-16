@@ -1,4 +1,5 @@
 <?php
+namespace Root\sport;
 
 interface ITerrain
 {

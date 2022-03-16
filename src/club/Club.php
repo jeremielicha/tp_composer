@@ -1,4 +1,6 @@
 <?php
+namespace Root\club;
+use Root\sport\Sport;
 
 class Club implements Comparable
 {

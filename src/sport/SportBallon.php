@@ -1,4 +1,5 @@
 <?php
+namespace Root\sport;
 
 class SportBallon extends Sport implements ITerrain
 {
